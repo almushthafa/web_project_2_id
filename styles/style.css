@@ -45,19 +45,6 @@
   background-position: center;
 }
 
-.logo_place-footer {
-  position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
-  height: 31px;
-  width: 154px;
-  z-index: 1;
-  background-image: url(../images/logo_place_footer.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .container {
   display: flex;
   padding: 0;
@@ -333,6 +320,11 @@
   height: 35px;
   width: 183px;
   background-image: url(../images/logo_place_footer.png);
+  margin-top: 30px;
+  margin-left: 64px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer__author {
