@@ -63,7 +63,7 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 1;
-  margin-top: 230px;
+  margin-top: 15%;
 }
 
 .header__subtitle {
@@ -127,7 +127,7 @@
   width: 80%;
   min-width: 784px;
   line-height: 34px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -174,7 +174,16 @@
 
 .digits__table-cell {
   width: 250px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+}
+
+.digits__table-cell__span {
+  position: relative;
+  top: 20px;
+  text-align: left;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .digits__table-heading {
@@ -190,9 +199,10 @@
 }
 
 .feynman {
-  margin-top: 100px;
+  margin-top: 40px;
   height: 790px;
   position: relative;
+  background-color: #F2F2F2;
 }
 
 .feynman__background-image {
@@ -204,21 +214,29 @@
 
 .feynman__title {
   position: relative;
+  top: 100px;
   line-height: 1.15em;
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-  z-index: 99;
+  width: 775px;
+  margin-left: 25%;
 }
 
 .feynman__subtitle {
   position: relative;
+  top: 70px;
   margin-top: 70px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-align: center;
   z-index: 99;
+}
+
+.feynman__title_span {
+  margin-top: 70px;
+
 }
 
 .feynman__link {
@@ -233,7 +251,6 @@
 }
 
 .kaufman {
-  margin-top: 100px;
   background-color: black;
   color: white;
   position: relative;
@@ -299,6 +316,7 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .footer__column {
