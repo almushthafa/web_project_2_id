@@ -32,7 +32,7 @@
   margin-top: 80px;
 }
 
-.logo_place-header {
+.logo_place_header_black {
   position: absolute;
   margin-top: 30px;
   margin-left: 64px;
@@ -45,21 +45,11 @@
   background-position: center;
 }
 
-.container {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-  height: 100%;
-}
-
 .header__title {
   display: flex;
   position: absolute;
   width: 730px;
   margin-left: 64px;
-  height: 96px;
   font-size: 102px;
   font-weight: bold;
   z-index: 1;
@@ -69,7 +59,6 @@
 .header__subtitle {
   display: flex;
   position: absolute;
-  height: 25px;
   font-size: 18px;
   font-weight: normal;
   z-index: 1;
@@ -82,6 +71,9 @@
   position: absolute;
   bottom: 0px;
   left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .header__main-illustration {
@@ -131,23 +123,21 @@
   font-weight: normal;
 }
 
-.two-columns__paragraph__span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 
-.two-columns__paragraph__p1 {
+.two-columns__paragraph {
   margin-bottom: 30px;
-}
-
-.two-columns__paragraph__p2 {
-  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .digits {
   margin-top: 100px;
 }
 
-.digits__section-title {
+.section-title {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
@@ -155,7 +145,7 @@
   margin-top: 100px;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -163,7 +153,7 @@
   margin-top: 20px;
 }
 
-.digits__table {
+.table {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
@@ -172,27 +162,26 @@
   list-style: none;
 }
 
-.digits__table-cell {
+.table__cell {
   width: 250px;
   margin-bottom: 60px;
 }
 
-.digits__table-cell__span {
+.table__cell__p {
   position: relative;
   top: 20px;
   text-align: left;
   line-height: 1.2em;
-  font-size: 18px;
   font-weight: normal;
 }
 
-.digits__table-heading {
+.table__heading {
  line-height: 1.15em;
  font-size: 24px;
  font-weight: bold;
 }
 
-.digits__table-text {
+.table__text {
   line-height: 1.2em;
   font-size: 18px;
   font-weight: normal;
@@ -200,7 +189,7 @@
 
 .feynman {
   margin-top: 40px;
-  height: 790px;
+  min-height: 790px;
   position: relative;
   background-color: #F2F2F2;
 }
@@ -243,7 +232,7 @@
   display: flex;
   position: absolute;
   line-height: 51px;
-  font-size: 20px;
+  font-size: 36px;
   font-weight: normal;
   right: 0;
   margin-right: 48px;
@@ -251,13 +240,13 @@
 }
 
 .kaufman {
-  background-color: black;
+  background-color: #1F1F1F;
   color: white;
   position: relative;
   overflow: hidden;
 }
 
-.kaufman__section-title__theme-dark {
+.section-title__theme_dark {
   text-align: center;
   line-height: 69px;
   font-size: 60px;
@@ -270,7 +259,7 @@
   padding-top: 90px;
 }
 
-.kaufman__section-subtitle__theme-dark {
+.section-subtitle__theme_dark {
   text-align: center;
   margin-top: 20px;
   line-height: 34px;
@@ -287,7 +276,7 @@
   z-index: 0;
 }
 
-.kaufman__table__theme_dark {
+.table__theme_dark {
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
@@ -299,16 +288,28 @@
   padding-bottom: 90px;
 }
 
-.kaufman__table-cell__theme_dark {
+.table__cell__theme_dark {
   width: 200px;
   margin-top: 80px;
   position: relative;
   z-index: 1;
 }
 
+.table__heading__theme_dark {
+  line-height: 1.15em;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .footer {
   position: relative;
-  background-color: black;
+  background-color: #1F1F1F;
   color: white;
   padding-top: 60px;
 }
@@ -324,7 +325,7 @@
   min-height: 350px;
 }
 
-.footer__column__content-copyright {
+.footer__column__content_copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -332,9 +333,9 @@
   list-style: none;
 }
 
-.logo_place-footer {
-  position: absolute;
-  top: 70px;
+.logo_place_footer_white {
+  /* position: absolute; */
+  /* top: 70px; */
   height: 35px;
   width: 183px;
   background-image: url(../images/logo_place_footer.png);
@@ -347,11 +348,11 @@
 
 .footer__author {
   margin-bottom: 18px;
-  position: absolute;
-  left: 100px;
+  /* position: absolute; */
+  /* left: 100px; */
 }
 
-.footer__column__content-about {
+.footer__column__content_about {
   width: 20px;
   list-style: none;
 }
@@ -374,7 +375,7 @@
   top: 20px;
 }
 
-.footer__column__content-social {
+.footer__column__content_social {
   list-style: none;
 }
 
@@ -384,9 +385,9 @@
   margin-right: 10px;
 }
 
-.footer__social-icons img {
+/* .footer__social-icons img {
   height: 16px;
   width: 16px;
   margin-right: 10px;
-}
+} */
 
