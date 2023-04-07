@@ -290,13 +290,6 @@
   padding-bottom: 90px;
 }
 
-.table__cell_theme_dark {
-  width: 200px;
-  margin-top: 80px;
-  position: relative;
-  z-index: 1;
-}
-
 .table__heading_theme_dark {
   line-height: 1.15em;
   font-size: 24px;
