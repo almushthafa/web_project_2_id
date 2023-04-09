@@ -287,12 +287,12 @@
   line-height: 1.15em;
 }
 
-.kaufman__table__text{
+.table__text{
   font-size: 18px;
   font-weight: normal;
 }
 
-.kaufman__table__text_theme_dark {
+.table__text_theme_dark {
   line-height: 1.2em;
 }
 
