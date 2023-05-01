@@ -9,21 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
-  background-color: #F2F2F2;
-  /* parameters for the header section */
-}
-
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
@@ -60,55 +45,6 @@
   width: 183px;
   margin: 0;
   background-image: url(../images/logo_place_footer.png);
-}
-
-.header__title {
-  display: flex;
-  position: absolute;
-  width: 730px;
-  margin-left: 64px;
-  font-size: 102px;
-  font-weight: bold;
-  z-index: 1;
-  margin-top: 15%;
-}
-
-.header__subtitle {
-  display: flex;
-  position: absolute;
-  font-size: 18px;
-  font-weight: normal;
-  z-index: 1;
-  left: 64px;
-  bottom: 30px;
-  width: 388px;
-}
-
-.header__link {
-  position: absolute;
-  bottom: 0px;
-  left: 64px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.header__main-illustration {
-  position: absolute;
-  width: 756px;
-  height: 608px;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-.header__square {
-  position: absolute;
-  width: 568px;
-  height: 568px;
-  background-color: #2F80ED;
-  right: 0;
-  top: 64px;
 }
 
 .description {
