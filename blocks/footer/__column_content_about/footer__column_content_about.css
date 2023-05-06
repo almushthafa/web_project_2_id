@@ -1,0 +1,5 @@
+.footer__column_content_about {
+  width: 20px;
+  list-style: none;
+  flex-basis: 500px;
+}

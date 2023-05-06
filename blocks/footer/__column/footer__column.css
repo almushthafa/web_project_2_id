@@ -1,0 +1,4 @@
+.footer__column {
+  flex: 1;
+  min-height: 350px;
+}

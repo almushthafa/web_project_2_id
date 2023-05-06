@@ -1,0 +1,8 @@
+.two-columns__brief {
+  display: flex;
+  width: 175px;
+  color: #2F80ED;
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+}
