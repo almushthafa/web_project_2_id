@@ -1,0 +1,8 @@
+.header__link {
+  position: absolute;
+  bottom: 0px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
