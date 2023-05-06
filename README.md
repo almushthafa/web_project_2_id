@@ -11,4 +11,4 @@ Proyek 2 --Sprint 2
 5. Debugging
 
 ## **Project Plan:**
-Jika ada Extended Time, Project ini akan dilengkapi dengan Font Style Ubuntu, menambahkan 2 Video Pembalajaran yang saya sukai, Re-check Kompatibilitas Browser, dan Mendesain Formulir.
+Jika ada Extended Time, Project ini akan dilengkapi dengan Font Style IBM Plex Serif, menambahkan 2 Video Pembalajaran yang saya sukai, Re-check Kompatibilitas Browser, dan Mendesain Formulir.
