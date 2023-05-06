@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../root/root.css);
-@import url(../blocks/font-container/_font_ibm/font-container_font_ibm.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place_header/logo_place_header.css);
@@ -26,7 +25,7 @@
 @import url(../blocks/table/__text/_theme_dark/table__text_theme_dark.css);
 @import url(../blocks/table/_theme_dark/table_theme_dark.css);
 @import url(../blocks/table/__heading_theme_dark/table__heading_theme_dark.css);
-@import url(../blocks/table/__cell_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
@@ -52,6 +51,9 @@
 
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/oakley/__two-columns/oakley__two-columns.css);
+@import url(../blocks/oakley/__two-columns__brief/oakley__two-columns__brief.css);
+@import url(../blocks/oakley/__two-columns__main-text/oakley__two-columns__main-text.css);
+@import url(../blocks/oakley/__two-columns__paragraph/oakley__two-columns__paragraph.css);
 
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__background-image/feynman__background-image.css);
