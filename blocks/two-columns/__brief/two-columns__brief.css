@@ -1,4 +1,7 @@
 .two-columns__brief {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 175px;
   color: #2F80ED;

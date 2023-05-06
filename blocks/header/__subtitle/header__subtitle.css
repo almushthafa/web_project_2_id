@@ -1,4 +1,7 @@
 .header__subtitle {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
   font-size: 18px;

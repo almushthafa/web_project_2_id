@@ -1,5 +1,11 @@
 .khan {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  /* justify-content: space-between; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   background-color: #F2F2F2;
 }

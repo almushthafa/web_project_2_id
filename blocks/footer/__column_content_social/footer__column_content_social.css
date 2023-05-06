@@ -1,4 +1,6 @@
 .footer__column_content_social {
   list-style: none;
+  /* flex-basis */
+  -ms-flex-preferred-size: 200px;
   flex-basis: 200px;
 }

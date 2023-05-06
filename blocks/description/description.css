@@ -1,4 +1,6 @@
 .description {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  /* margin: 100px auto; */
 }

@@ -1,4 +1,7 @@
 .oakley {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #F2F2F2;
   margin-top: -60px;

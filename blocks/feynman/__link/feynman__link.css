@@ -1,5 +1,7 @@
-
 .feynman__link {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
   line-height: 51px;
@@ -8,4 +10,9 @@
   right: 0;
   margin-right: 48px;
   top: 50%;
+}
+
+.feynman__link:hover {
+  color: #2f81ed82;
+  transition: color .4s ease-out;
 }

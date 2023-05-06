@@ -1,4 +1,7 @@
 .footer__columns {
+  /* display: flex; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 90%;
   margin-left: 5%;

@@ -6,3 +6,8 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+.header__link:hover {
+  color: #2f81ed82;
+  transition: color .4s ease-out;
+}
