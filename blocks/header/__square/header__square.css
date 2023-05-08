@@ -7,7 +7,5 @@
   top: 64px;
   overflow: hidden;
   transform: rotate(-15deg);
-  animation: rotation 20s linear;
-  animation-iteration-count: 1;
 }
 
